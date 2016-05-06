@@ -40,3 +40,9 @@ int main(int argc, char **argv) {
  
   return EXIT_SUCCESS;
 }
+
+/*
+ gcc -pthread -c file.c
+ gcc -pthread -o th file.c
+ ./th 55
+*/
